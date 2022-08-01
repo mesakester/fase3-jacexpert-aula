@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image: 
-  repository: nginx
+  repository: peteindockerhub/hello-rancher:1.0.2
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: https://cdn1.vogel.de/unsafe/fit-in/1000x0/images.vogel.de/vogelonline/bdb/1649100/1649199/original.jpg
+  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
